@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Hind Madurai', sans-serif;
+}
+.container{
+  margin: auto;
+  margin-top: 5%;
+  padding: 2%;
+  width: 20%;
+  height: auto;
+  background-color: #dfdfdf;
+  border-radius: 10%;
+  box-shadow: 20px 11px rgb(0, 0, 0.7);
+}
+h1{
+  font-size: 50px;
+  margin: 20px;
+}
+.login-form{
+  padding: 5px;
+}
+
+.form-field {
+  display: inline-block;
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
+.form-error{
+  display: block;
+  color: #ed4337;
+  font-weight: 500;
+}
+
+.button{
+  margin-top: 10px;
+  width: 30%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
