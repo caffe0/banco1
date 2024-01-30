@@ -2,7 +2,7 @@ const express = require("express")
 const app = express()
 const mysql = require("mysql")
 const cors = require('cors')
-import axios from "axios"
+
 
 
 const db = mysql.createPool({
@@ -13,7 +13,7 @@ const db = mysql.createPool({
 })
 
 app.use(express.json())
-app.use(cors())
+
 
 app.post("/register", (req, res) => {
     const email = req.body.email;
@@ -36,6 +36,6 @@ app.get('/', (req, res) =>{
 })
 
 
-app.listen(3001, () =>{
-    console.log("Rodando na porta 3001")
+app.listen(3006, () =>{
+    console.log("Rodando na porta 3006")
 })  

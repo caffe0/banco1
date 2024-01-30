@@ -19,7 +19,7 @@ function App() {
     .required()
   })
   const handleClickRegister = (values) => {
-    Axios.post("http://localhost:3306", {
+    Axios.post("localhost:3306", {
       email: values.email,
       password: values.password
     }).then((response) => {
